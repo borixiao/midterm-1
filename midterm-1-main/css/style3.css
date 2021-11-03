@@ -1,0 +1,223 @@
+html{
+    box-sizing: border-box;
+    /* background-color: rgb(0, 48, 33); */
+    background-image:url("https://i.pinimg.com/736x/fd/46/1b/fd461b33c632837344750e38ed1c8aca.jpg");
+background-size:contain;
+background-attachment: fixed;
+}
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-size: 87%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* 設定網頁大小 */
+.container{
+    max-width: 1200px;
+    /* height: 1653px; */
+    margin: 0 auto;
+    background-image: url("https://i.pinimg.com/564x/8f/c9/25/8fc925150eae143e15c0f95c41c39cb4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(197, 226, 216);
+    padding-top: 100px;
+}
+/* header */
+.header{
+    width: 79%;
+    font-size: 1.2rem;
+    background-color: rgb(133, 197, 176);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.header-content >a{
+    display: block;
+    width: 30%;
+    margin-left: 20px;
+}
+.header-logo{
+    width: 100%;
+}
+.header-title{
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(231, 124, 124);
+}
+.header-title-slogan{
+    font-size: 0.9em;
+    color: rgb(167, 71, 71);
+    font-weight: 500;
+}
+/* nav */
+.nav{
+    margin-right: 10px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right:20px;
+}
+.nav-link{
+    display: block;
+    color:white;
+    text-shadow:black 0.1em 0.1em 0.2em;
+    text-decoration: none;
+}
+/* banner */
+.position-container{
+    position: relative;
+}
+.banner{
+    width: 100%;    
+    position: absolute;
+    /* z-index: 1; */
+}
+.banner >img{
+    width: 100%;
+}
+.article{
+    width: 50%;
+    font-size: 1rem;
+    bottom: -250px;
+    position: relative;
+    /* z-index: 2; */
+    left: 120px;
+}
+.article-title{
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+    margin-bottom: 5px;
+}
+.article-price{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.article-button-box{
+    width: 37%;
+    background-color: rgb(0, 71, 50);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 8px;
+    padding: 8px 0;
+    
+}
+.article-button-box:hover{
+    cursor: pointer;
+    background-color: rgb(0, 114, 78);
+}
+.article-content-area{
+    margin-top: 20px;
+}
+.article-content-area >h2{
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+}
+.article-content-area >p{
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgb(27, 27, 27);
+    /* letter-spacing: 1.1px; */
+}
+.article-trigger{
+    text-align: center;
+    font-size: 1.1em;
+    color: gray;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    animation: animate 2s infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translate(0px,0px);
+    }
+    50%{
+        transform: translate(0,10px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+.article-toggler{
+    width: 80%;
+    font-size:1.2rem ;
+    margin: 0 auto;
+    display: none;
+    color: rgb(27, 27, 27);
+    /* transition:all 5s ease; */
+}
+.article-active{
+    display: block;
+    /* transition: 3s ease-out; */
+}
+.section-title{
+    margin-top: 55px;
+}
+.section-area{
+    display: flex;
+}
+.section-area >img{
+    width: 25%;
+    margin-right: 18px;
+    overflow: hidden;
+}
+.section-area-img{
+    margin-left: 18px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    /* height: 186px; */
+    background-color: rgb(133, 197, 176);
+    font-size: 1.01rem;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.footer-list{
+    list-style: none;
+    /* margin-left: 150px; */
+    padding-top: 50px;
+}
+.footer-item{
+    margin-top: 7px;
+}
+.footer-link{
+    text-decoration: none;
+    color:rgb(23, 16, 92) ;
+}
+.footer-infrolist{
+    list-style: none;
+    padding-top: 50px;
+}
+.footer-icon-flex{
+    display: flex;
+    margin-top: 2px;
+}
+.footer-icon-flex .footer-link{
+    margin-right: 8px;
+}
+.footer-icon-flex .footer-link >i{
+    font-size: 1.5em;
+}
