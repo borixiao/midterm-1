@@ -1,0 +1,141 @@
+html{
+    box-sizing: border-box;
+    background-image: url("https://i.pinimg.com/564x/c2/8b/11/c28b111e671c67368e3cc11a4256c4fe.jpg");
+    background-size: contain;
+    background-attachment: fixed;   
+    /* background-color: antiquewhite; */
+}
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-size: 87%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* 設定網頁大小 */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    font-size: 1.2rem;
+    background-color: rgb(133, 197, 176);
+    display: flex;
+    justify-content: space-between;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.header-content >a{
+    display: block;
+    width: 30%;
+    margin-left: 20px;
+}
+.header-logo{
+    width: 100%;
+}
+.header-title{
+    font-size: 1.6em;
+    color: rgb(231, 124, 124);
+}
+.header-title-slogan{
+    font-size: 0.9em;
+    color: rgb(167, 71, 71);
+ 
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+}
+/* nav */
+.nav{
+    margin-right: 10px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right:20px;
+}
+.nav-link{
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+/* slider */
+.slider{
+    width: 100%;
+}
+.slider>img{
+    width: 100%;
+
+}
+/*商品section*/
+.section-title{
+    width: 100%;
+    font-size:2.3rem;
+    text-align: center;
+    padding: 20px 20px;
+    color:rgb(0, 66, 0)
+}
+.main-area{
+    display: flex;
+}
+.main-area >img{
+    margin-right:25px;
+    width: 32%;
+}
+
+.main-area2{
+    display: flex;
+}
+.main-area2 >img{
+    margin-right:25px;
+    width: 49%;
+}
+/* footer */
+.footer{
+    width: 100%;
+    /* height: 186px; */
+    font-size: 1.01rem;
+    background-color: rgb(133, 197, 176);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.footer-list{
+    list-style: none;
+    /* margin-left: 150px; */
+    padding-top: 50px;
+}
+.footer-item{
+    margin-top: 7px;
+}
+.footer-link{
+    text-decoration: none;
+    color:rgb(23, 16, 92) ;
+}
+.footer-infrolist{
+    list-style: none;
+    padding-top: 50px;
+}
+.footer-icon-flex{
+    display: flex;
+    margin-top: 2px;
+}
+.footer-icon-flex .footer-link{
+    margin-right: 8px;
+}
+.footer-icon-flex .footer-link >i{
+    font-size: 1.5em;
+}

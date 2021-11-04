@@ -21,7 +21,7 @@ body{
 }
 /* header */
 .header{
-    width: 79%;
+    width: 1200px;
     font-size: 1.2rem;
     background-color: rgb(245, 206, 206);
     display: flex;
