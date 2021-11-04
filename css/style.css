@@ -98,15 +98,14 @@ body{
 /* footer */
 .footer{
     width: 100%;
-    height: 250px;
-    background-color: rgb(245, 206, 206);
-    
+    /* height: 186px; */
+    font-size: 1.01rem;
+    background-color: rgb(133, 197, 176);
 }
 .footer-container{
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
-
 }
 .footer-list{
     list-style: none;
@@ -114,12 +113,23 @@ body{
     padding-top: 50px;
 }
 .footer-item{
-    margin-top: 5px;
+    margin-top: 7px;
 }
 .footer-link{
     text-decoration: none;
+    color:rgb(23, 16, 92) ;
 }
 .footer-infrolist{
     list-style: none;
     padding-top: 50px;
+}
+.footer-icon-flex{
+    display: flex;
+    margin-top: 2px;
+}
+.footer-icon-flex .footer-link{
+    margin-right: 8px;
+}
+.footer-icon-flex .footer-link >i{
+    font-size: 1.5em;
 }
