@@ -37,6 +37,9 @@ body{
     width: 30%;
     margin-left: 20px;
 }
+.header-content-area-link{
+    text-decoration: none;
+}
 .header-logo{
     width: 100%;
 }
