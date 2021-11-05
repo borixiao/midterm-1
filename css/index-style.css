@@ -30,12 +30,15 @@ body{
     display: flex;
     align-items: center;
     width: 30%;
+    margin-left: 50px;
 }
-
 .header-content >a{
     display: block;
     width: 30%;
     margin-left: 20px;
+}
+.header-content-area{
+    margin-left: 10px;
 }
 .header-content-area-link{
     text-decoration: none;

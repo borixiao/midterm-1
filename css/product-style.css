@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    background-image: url("https://i.pinimg.com/564x/c2/8b/11/c28b111e671c67368e3cc11a4256c4fe.jpg");
+    background-image: url("https://i.pinimg.com/736x/fd/46/1b/fd461b33c632837344750e38ed1c8aca.jpg");
     background-size: contain;
     background-attachment: fixed;   
     /* background-color: antiquewhite; */
@@ -19,7 +19,9 @@ body{
     max-width: 1200px;
     /* height: 1653px; */
     margin: 0 auto;
-    background-color: white;
+    background-image: url("https://i.pinimg.com/564x/8f/c9/25/8fc925150eae143e15c0f95c41c39cb4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     /* padding-top: 100px; */
 }
 /* header */
@@ -40,7 +42,6 @@ body{
     align-items: center;
     width: 30%;
 }
-
 .header-content >a{
     display: block;
     width: 30%;
@@ -100,7 +101,7 @@ body{
 }
 .article-title{
     font-weight: 500;
-    color: rgb(41, 41, 41);
+    color: rgb(37, 37, 37);
     margin-bottom: 5px;
 }
 .article-price{
@@ -109,7 +110,7 @@ body{
 }
 .article-button-box{
     width: 37%;
-    background-color: rgb(75, 74, 74);
+    background-color: rgb(0, 71, 50);
     color: white;
     text-align: center;
     border-radius: 3px;
@@ -119,7 +120,7 @@ body{
 }
 .article-button-box:hover{
     cursor: pointer;
-    background-color: rgb(60, 145, 117);
+    background-color: rgb(0, 114, 117);
 }
 .article-content-area{
     margin-top: 20px;
