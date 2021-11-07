@@ -3,7 +3,6 @@ html{
     background-image: url("https://i.pinimg.com/736x/fd/46/1b/fd461b33c632837344750e38ed1c8aca.jpg");
     background-size: contain;
     background-attachment: fixed;   
-    /* background-color: antiquewhite; */
 }
 .container{
     max-width: 1200px;
