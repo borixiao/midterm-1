@@ -21,10 +21,16 @@ body{
 }
 /* header */
 .header{
+    width: 1200px;
     font-size: 1.2rem;
-    background-color: rgb(133, 197, 176);
+    background-color:rgb(133, 197, 176);
+    /* backdrop-filter: blur(5px); */
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    transition: all .5s ease-out;
 }
 .header-content{
     display: flex;
@@ -80,7 +86,7 @@ body{
 .slider{
     width: 100%;
 }
-.slider>img{
+.slider img{
     width: 100%;
 
 }
@@ -94,18 +100,65 @@ body{
 }
 .main-area{
     display: flex;
+    justify-content: space-between;
 }
-.main-area >img{
-    margin-right:25px;
+.main-area-content{
     width: 32%;
+    position: relative;
+    overflow: hidden;
+}
+.main-area-content img{
+    width: 100%;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+.main-area-content:hover img{
+    transform: scale(1) ;
+}
+.main-area-link{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+.main-area-img-text{
+    position:absolute;
+    width: 100%;
+    color: white;
+    bottom: 40px;
+    text-align: center;
+}
+/* p的hover */
+.main-area-img-text p{
+    opacity: 0;
+    transform: translateY(30px);
+	transition: all 0.3s ease-out 0.2s;
+}
+.main-area-content:hover .main-area-img-text p{
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .main-area2{
     display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
 }
-.main-area2 >img{
+.main-area2-content{
+    width: 48%;
+    text-align: center;
+    font-size: 1.15em;
+    font-weight: 500;
+}
+.main-area2-content:hover{
+    
+}
+.main-area2-content img{
     margin-right:25px;
-    width: 49%;
+    width: 100%;  
+}
+.main-area2-link{
+    text-decoration: none;
 }
 /* footer */
 .footer{

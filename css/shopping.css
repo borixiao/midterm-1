@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+    background-image: url("https://i.pinimg.com/736x/fd/46/1b/fd461b33c632837344750e38ed1c8aca.jpg");
+    background-size: contain;
+    background-attachment: fixed;   
+    /* background-color: antiquewhite; */
+}
+.container{
+    max-width: 1200px;
+    /* height: 1653px; */
+    margin: 0 auto;
+    background-image: url("https://i.pinimg.com/564x/8f/c9/25/8fc925150eae143e15c0f95c41c39cb4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding-top: 100px; */
+}
+.header{
+    width: 1200px;
+    font-size: 1.2rem;
+    background-color:rgb(133, 197, 176);
+    /* backdrop-filter: blur(5px); */
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    transition: all .5s ease-out;
+}
+.flex-container{
+    display: flex;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 18px 0px;
+    margin-top: 90px;
+    padding-left: 35px;
+}
+.top-section-box{
+    width: 13%;
+    border: rgb(58, 58, 58) 1px solid;
+    border-radius: 5px;
+    padding: 3px 4px;
+    margin-right: 30px;
+}
+.border-box{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: black;
+}
+.left-section{
+    width:23%;
+}
+.right-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 50px;
+}
+.right-section-content{
+    width: 25%;
+    margin: 5px 15px;
+}
+.right-section img{
+    width: 100%;
+    /* margin:15px 15px; */
+}
+.left-item{
+    list-style: none;
+    margin-bottom: 5px;
+    padding-left: 35px;
+}
+/* sublist */
+.sublist{
+    display: none;
+}
+.sublist2{
+    display: none;
+}
+.sublist3{
+    display: none;
+}
+.sublist4{
+    display: none;
+}
+.active{
+    display: block;
+}
+.left-link{
+    display: block;
+    color: rgb(27, 27, 27);
+    border-bottom: black 1px solid;
+    text-decoration: none;
+    padding: 5px 5px;
+    padding-left: 15px;
+}
+.bottom-section{
+    width: 50%;
+    height: 50px;
+    border: black 1px solid;
+    margin-top: 50px;
+    margin-left: 35%;
+}
