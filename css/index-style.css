@@ -46,6 +46,9 @@ body{
 .header-content-area{
     margin-left: 10px;
 }
+.header-content-area a{
+    text-decoration: none;
+}
 .header-content-area-link{
     text-decoration: none;
 }
@@ -89,10 +92,20 @@ body{
     width: 100%;
 
 }
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 /*商品section*/
 .section-title{
     width: 100%;
     font-size:2.3rem;
+    font-weight: 500;
     text-align: center;
     padding: 20px 20px;
     color:rgb(0, 66, 0)
@@ -100,19 +113,17 @@ body{
 .main-area{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 65px;
 }
 .main-area-content{
     width: 32%;
     position: relative;
     overflow: hidden;
+    
 }
 .main-area-content img{
     width: 100%;
-    transform: scale(1.1);
     transition: all 0.3s ease-out;
-}
-.main-area-content:hover img{
-    transform: scale(1) ;
 }
 .main-area-link{
     font-size: 1.2em;
@@ -121,55 +132,111 @@ body{
     text-decoration: none;
 }
 .main-area-img-text{
-    position:absolute;
     width: 100%;
-    color: white;
-    bottom: 40px;
+    color: rgb(48, 47, 47);
     text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
 }
-/* p的hover */
-.main-area-img-text p{
-    opacity: 0;
-    transform: translateY(30px);
-	transition: all 0.3s ease-out 0.2s;
+/* 了解詳情 */
+.main-area-button{
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    padding: 8px 0px;
+    transition: all .3s ease-out;
 }
-.main-area-content:hover .main-area-img-text p{
-    opacity: 1;
-    transform: translateY(0px);
+.main-area-button:hover{
+    background-color: rgb(192, 192, 192);
 }
-
+/* main-area2 */
 .main-area2{
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
+    height: 380px;
+    /* border: black 1px solid; */
+
 }
 .main-area2-content{
     width: 48%;
     text-align: center;
     font-size: 1.15em;
     font-weight: 500;
+    position: relative;
+    overflow: hidden;
 }
-.main-area2-content:hover{
-    
+.main-area-img-text2{
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    bottom: 0px;
+    padding: 15px 0px;
 }
-.main-area2-content img{
-    margin-right:25px;
-    width: 100%;  
+.main-area-img-text2 p{
+    font-size: 1.2em;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(30px);
+	transition: all 0.3s ease-out 0.2s;
+}
+.main-area2-content:hover .main-area-img-text2{
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.8),transparent) ;
+}
+.main-area2-content:hover .main-area-img-text2 p{
+    opacity: 1;
+    transform: translateY(0px);
 }
 .main-area2-link{
     text-decoration: none;
 }
+.main-area2-content img{
+    margin-right:25px;
+    width: 100%;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+    
+}
+.main-area2-content:hover img{
+    transform: scale(1) ;
+}
+.main-area2-content .main-area-img-text2 a{
+    font-weight: 400;
+    color: #fff;
+	background:rgb(62, 189, 146);;
+	display: inline-block;
+	padding: 8px 25px;
+	border-radius: 5px;
+    margin-top: 15px;
+	text-decoration: none;
+	transform: translateY(20px);
+	opacity: 0;
+	transition: all 0.3s ease-out 0.4s;
+}
+.main-area2-content .main-area-img-text2 a:hover{
+    background:#085a86;
+}
+.main-area2-content:hover .main-area-img-text2 a{
+	opacity: 1;
+	transform: translateY(0px);
+}
 /* footer */
 .footer{
     width: 100%;
-    /* height: 186px; */
+    height: 250px;
     font-size: 1.01rem;
     background-color: rgb(133, 197, 176);
 }
 .footer-container{
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 75px;
 }
 .footer-list{
     list-style: none;
