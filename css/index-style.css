@@ -57,11 +57,12 @@ body{
 }
 .header-title{
     font-size: 1.6em;
-    color: rgb(231, 124, 124);
+    color: rgb(255, 91, 91);
 }
 .header-title-slogan{
-    font-size: 0.9em;
-    color: rgb(167, 71, 71);
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(255, 147, 147);
 }
 .flexbox{
     display: flex;
@@ -90,7 +91,99 @@ body{
 }
 .slider img{
     width: 100%;
-
+}
+.slider-content{
+    position: relative;
+}
+.slider-text{
+    position: absolute;
+    width: 20%;    /*寬度可以調整*/
+    height: 50px;
+    background-color: grey;
+    bottom: 20%;  /*位置可以調整*/
+    left: 10%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+}
+.slider-text2{
+    position: absolute;
+    width: 30%;   /*寬度可以調整*/
+    height: 50px;
+    background-color: grey;
+    bottom: 10%;  /*位置可以調整*/
+    left: 10%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+}
+.slider-text3{
+    position: absolute;
+    width: 30%;   /*寬度可以調整*/
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    bottom: 50%;  /*位置可以調整*/
+    left: 60%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+}
+.slider-text4{
+    position: absolute;
+    width: 30%;   /*寬度可以調整*/
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    bottom: 10%;   /*位置可以調整*/
+    left: 10%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+}
+.slider-text5{
+    position: absolute;
+    width: 30%;   /*寬度可以調整*/
+    height: 50px;
+    background-color: grey;
+    bottom: 20%;   /*位置可以調整*/
+    left: 10%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+}
+.slider-text6{
+    position: absolute;
+    width: 30%;  /*寬度可以調整*/
+    height: 50px;
+    background-color: grey;
+    bottom: 10%;  /*位置可以調整*/
+    left: 10%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(70, 70, 70);
 }
 .slick-next:before, .slick-prev:before {
     font-family: slick;
@@ -147,12 +240,13 @@ body{
     margin-top: 10px;
     color: rgb(46, 46, 46);
     text-align: center;
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(255, 157, 157);
     padding: 8px 0px;
     transition: all .3s ease-out;
 }
 .main-area-button:hover{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(85, 61, 100);;
+    color:#fff;
 }
 /* main-area2 */
 .main-area2{
@@ -217,7 +311,7 @@ body{
 	text-decoration: none;
 	transform: translateY(20px);
 	opacity: 0;
-	transition: all 0.3s ease-out 0.4s;
+	transition: all 0.3s ease-out 0.1s;
 }
 .main-area2-content .main-area-img-text2 a:hover{
     background:#085a86;
@@ -230,7 +324,9 @@ body{
 .footer{
     width: 100%;
     height: 250px;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 1.01rem;
+    font-weight:bold;
     background-color: rgb(133, 197, 176);
 }
 .footer-container{
@@ -248,7 +344,7 @@ body{
 }
 .footer-link{
     text-decoration: none;
-    color:rgb(23, 16, 92) ;
+    color:rgb(73, 73, 73) ;
 }
 .footer-infrolist{
     list-style: none;
@@ -263,4 +359,13 @@ body{
 }
 .footer-icon-flex .footer-link >i{
     font-size: 1.5em;
+}
+.fa-facebook-square{
+    color: rgb(21, 55, 248);
+}
+.fa-line{
+    color: rgb(16, 172, 2);
+}
+.fa-facebook-messenger{
+    color:rgb(129, 74, 165);
 }
