@@ -59,40 +59,48 @@
         </header>
         <div class="slider">
             <div class="slider-content">
-                <img src="./img/vera-cho-bf0FRl7p_rE-unsplash.jpg" alt="">
-                <div class="slider-text">
-                    <p> 聖誕節限定款!</p>
-                </div>
-                <div class="slider-text2">
-                    <p> 雪白亮色系列帶來冬天的氣息</p>
-                </div>
+                <a href="">
+                    <img src="./img/vera-cho-bf0FRl7p_rE-unsplash.jpg" alt="">
+                    <div class="slider-text">
+                        <p> 聖誕節限定款!</p>
+                    </div>
+                    <div class="slider-text2">
+                        <p> 雪白亮色系列帶來冬天的氣息</p>
+                    </div>
+                </a>
             </div>
             <div>
-                <img src="./img/vu-viet-anh-mCKh3xd68sQ-unsplash.jpg" alt="">
-                <div class="slider-text3">
-                    <p> 聖誕節限定款!</p>
-                </div>
-                <div class="slider-text4">
-                    <p> 聖誕節限定款!</p>
-                </div>
+                <a href="">
+                    <img src="./img/vu-viet-anh-mCKh3xd68sQ-unsplash.jpg" alt="">
+                    <div class="slider-text3">
+                        <p> 綠意盎然，璀璨冬天</p>
+                    </div>
+                    <div class="slider-text4">
+                        <p>霜之朝最適合你的多肉</p>
+                    </div>
+                </a>
             </div>
             <div>
-                <img src="./img/pexels-cottonbro-4503823.jpg" alt="">
-                <div class="slider-text5">
+                <a href="./product.html">
+                    <img src="./img/pexels-cottonbro-4503823.jpg" alt="">
+                    <div class="slider-text5">
+                        <p>多款精選優惠，任你挑選</p>
+                    </div>
+                    <!-- <div class="slider-text6">
                     <p> 聖誕節限定款!</p>
-                </div>
-                <div class="slider-text6">
-                    <p> 聖誕節限定款!</p>
-                </div>
+                </div> -->
+                </a>
             </div>
             <div>
-                <img src="./img/pexels-scott-webb-175253.jpg" alt="">
-                <div class="slider-text">
-                    <p> 聖誕節限定款!</p>
-                </div>
-                <div class="slider-text2">
-                    <p> 聖誕節限定款!</p>
-                </div>
+                <a href="">
+                    <img src="./img/pexels-scott-webb-175253.jpg" alt="">
+                    <div class="slider-text7">
+                        <p> 憂鬱藍黃桐子，冷豔上市</p>
+                    </div>
+                    <!-- <div class="slider-text8">
+                    <p> 現正販售中!</p>
+                </div> -->
+                </a>
             </div>
         </div>
         <div class="section-title">
@@ -103,7 +111,7 @@
                 <a href="" class="main-area-link">
                     <img src="./img/2021-最新大理石盆器作品-300x300.jpg" alt="">
                     <div class=" main-area-img-text">
-                        <p>雋永之禮 – 火山系列</p>
+                        <p>生生不息 – 自然系列</p>
                     </div>
                 </a>
                 <a href="" class="main-area-link">
@@ -116,7 +124,7 @@
                 <a href="" class="main-area-link">
                     <img src="./img/2021-最新大理石盆器作品-仙人掌組合2-300x300.jpg" alt="">
                     <div class="main-area-img-text">
-                        <p>雋永之禮 – 火山系列</p>
+                        <p>心之所向 – 夏樹系列</p>
                     </div>
                 </a>
                 <a href="" class="main-area-link">
@@ -219,7 +227,9 @@
         $('.slider').slick({
             dots: true,
             infinite: true,
-            speed: 500,
+            // speed: 500,
+            autoplay: true,
+            autoplaySpeed: 2000,
             fade: true,
             cssEase: 'linear'
         });

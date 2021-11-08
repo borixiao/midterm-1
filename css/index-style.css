@@ -108,7 +108,7 @@ body{
     font-size: 1.3rem;
     font-weight: bold;
     color: white;
-    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+    box-shadow: 0px 1px 8px rgb(143, 142, 142);
 }
 .slider-text2{
     position: absolute;
@@ -123,15 +123,15 @@ body{
     font-size: 1.3rem;
     font-weight: bold;
     color: white;
-    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+    box-shadow: 0px 1px 8px rgb(143, 142, 142);
 }
 .slider-text3{
     position: absolute;
-    width: 30%;   /*寬度可以調整*/
+    width: 25%;   /*寬度可以調整*/
     height: 50px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(6, 43, 44);
     bottom: 50%;  /*位置可以調整*/
-    left: 60%;
+    left: 65%;
     padding-top: 10px;
     text-align: center;
     font-family:Helvetica,Arial, sans-serif;
@@ -142,11 +142,11 @@ body{
 }
 .slider-text4{
     position: absolute;
-    width: 30%;   /*寬度可以調整*/
+    width: 25%;   /*寬度可以調整*/
     height: 50px;
-    background-color: rgb(20, 20, 20);
-    bottom: 10%;   /*位置可以調整*/
-    left: 10%;
+    background-color: rgb(6, 43, 44);
+    bottom: 40%;   /*位置可以調整*/
+    left: 65%;
     padding-top: 10px;
     text-align: center;
     font-family:Helvetica,Arial, sans-serif;
@@ -159,8 +159,23 @@ body{
     position: absolute;
     width: 30%;   /*寬度可以調整*/
     height: 50px;
+    background-color: rgb(165, 165, 165);
+    bottom: 10%;   /*位置可以調整*/
+    left: 10%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(143, 142, 142);
+}
+.slider-text6{
+    position: absolute;
+    width: 30%;  /*寬度可以調整*/
+    height: 50px;
     background-color: grey;
-    bottom: 20%;   /*位置可以調整*/
+    bottom: 10%;  /*位置可以調整*/
     left: 10%;
     padding-top: 10px;
     text-align: center;
@@ -170,9 +185,24 @@ body{
     color: white;
     box-shadow: 0px 1px 8px rgb(70, 70, 70);
 }
-.slider-text6{
+.slider-text7{
     position: absolute;
     width: 30%;  /*寬度可以調整*/
+    height: 50px;
+    background-color: rgb(96, 110, 156);
+    bottom: 10%;  /*位置可以調整*/
+    left: 10%;
+    padding-top: 10px;
+    text-align: center;
+    font-family:Helvetica,Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px rgb(70, 70, 70);
+}
+.slider-text8{
+    position: absolute;
+    width: 15%;  /*寬度可以調整*/
     height: 50px;
     background-color: grey;
     bottom: 10%;  /*位置可以調整*/
@@ -228,13 +258,14 @@ body{
     width: 100%;
     color: rgb(48, 47, 47);
     text-align: center;
-    font-size: 1.2em;
-    font-weight: 400;
+    font-size: 1.4em;
+    font-weight: 500;
 }
 /* 了解詳情 */
 .main-area-button{
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
+    font-size: 1.1em;
     font-weight: 500;
     border-radius: 3px;
     margin-top: 10px;
@@ -245,7 +276,7 @@ body{
     transition: all .3s ease-out;
 }
 .main-area-button:hover{
-    background-color: rgb(85, 61, 100);;
+    background-color: rgb(255, 91, 91);
     color:#fff;
 }
 /* main-area2 */
@@ -303,7 +334,7 @@ body{
 .main-area2-content .main-area-img-text2 a{
     font-weight: 400;
     color: #fff;
-	background:rgb(62, 189, 146);;
+	background:rgb(106, 163, 144);
 	display: inline-block;
 	padding: 8px 25px;
 	border-radius: 5px;

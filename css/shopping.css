@@ -32,9 +32,9 @@ html{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 18px 0px;
+    padding: 30px 0px;
     margin-top: 90px;
-    padding-left: 50px;
+    padding-left: 115px;
 }
 .top-section-box{
     width: 13%;
@@ -48,7 +48,7 @@ html{
 }
 .top-section-connect a{
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 400;
     color: rgb(11, 58, 35);
 }
@@ -59,9 +59,7 @@ html{
     height: 1px;
     background-color: black;
 }
-.left-section{
-    width:23%;
-}
+
 .right-section{
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +79,7 @@ html{
     text-align: center;
     font-size: 1.3em;
     color: rgb(48, 48, 48);
+    margin: 5px 0px ;
 }
 .right-section-price{
     text-align: center;
@@ -92,10 +91,36 @@ html{
     box-shadow: 3px 3px 15px rgb(201, 201, 201);
     /* margin:15px 15px; */
 }
+.left-section{
+    width:23%;
+    margin-left: 50px;
+    /* padding-top: 55px; */
+    padding-left: 85px;
+}
 .left-item{
-    list-style: none;
     margin-bottom: 5px;
+}
+.left-subitem{
+    list-style: none;
     padding-left: 35px;
+}
+.left-link{
+    display: block;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgb(10, 56, 34);
+    /* border-bottom: black 1px solid; */
+    text-decoration: none;
+    padding: 5px 0px;
+    /* padding-left: 15px; */
+    cursor: pointer;
+}
+.left-sublink{
+    color: rgb(4, 80, 42);
+    transition: all .3s ease-out;
+}
+.left-sublink:hover{
+    color: rgb(113, 143, 206);
 }
 .displaynone{
     display: none;
@@ -119,20 +144,7 @@ html{
 .active{
     display: block;
 }
-.left-link{
-    display: block;
-    font-size: 1.2em;
-    font-weight: 400;
-    color: rgb(11, 58, 35);
-    /* border-bottom: black 1px solid; */
-    text-decoration: none;
-    padding: 5px 5px;
-    padding-left: 15px;
-    cursor: pointer;
-}
-.left-sublink:hover{
-    color: rgb(4, 38, 110);
-}
+
 .bottom-section{
     display: flex;
     justify-content: center;
