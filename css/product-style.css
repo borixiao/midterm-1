@@ -134,6 +134,10 @@ body{
     cursor: pointer;
     background-color: rgb(60, 145, 148);
 }
+.article-button-box2:hover{
+    cursor: pointer;
+    background-color: rgb(60, 145, 148);
+}
 .article-content-area{
     margin-top: 20px;
 }
