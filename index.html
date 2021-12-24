@@ -25,13 +25,14 @@
         <header class="header">
             <div class="header-content">
                 <a href="./index.html" target="_blank"><img class="header-logo" src="./img/logo.png" alt=""></a>
-                <div class="header-content-area">
+                <!-- <div class="header-content-area">
                     <h1 class="header-title">多肉寶</h1>
                     <p class="header-title-slogan">你最愛的多肉植物</p>
-                </div>
+                </div> -->
             </div>
             <div class="flexbox">
                 <nav class="nav">
+                    <span class="nav-menu">&#9776</span>
                     <ul class="nav-list">
                         <li class="nav-item">
                             <a href="" class="nav-link">最新消息</a>
@@ -54,9 +55,17 @@
 
                     </ul>
                 </nav>
-
+            </div>
+            <div class="nav-m">
+                <ul class="nav-m-list">
+                    <li class="nav-m-item"><a href="" class="nav-m-link">最新消息</a></li>
+                    <li class="nav-m-item"><a href="" class="nav-m-link">商品頁面</a></li>
+                    <li class="nav-m-item"><a href="" class="nav-m-link">盆栽照護小常識</a></li>
+                    <li class="nav-m-item"><a href="" class="nav-m-link">品牌介紹</a></li>
+                </ul>
             </div>
         </header>
+
         <div class="slider">
             <div class="slider-content">
                 <a href="">
@@ -107,7 +116,7 @@
             <p>商品特惠</p>
         </div>
         <section class="main-area">
-            <div class="main-area-content">
+            <div class="main-area-content col-xs-8 col-sm-3">
                 <a href="" class="main-area-link">
                     <img src="./img/2021-最新大理石盆器作品-300x300.jpg" alt="">
                     <div class=" main-area-img-text">
@@ -120,20 +129,20 @@
                     </div>
                 </a>
             </div>
-            <div class="main-area-content">
+            <div class="main-area-content col-xs-8 col-sm-3">
                 <a href="" class="main-area-link">
                     <img src="./img/2021-最新大理石盆器作品-仙人掌組合2-300x300.jpg" alt="">
                     <div class="main-area-img-text">
                         <p>心之所向 – 夏樹系列</p>
                     </div>
                 </a>
-                <a href="" class="main-area-link">
+                <a href="" class="main-area-link ">
                     <div class="main-area-button">
                         <p>了解詳情</p>
                     </div>
                 </a>
             </div>
-            <div class="main-area-content">
+            <div class="main-area-content col-xs-8 col-sm-3">
                 <a href="" class="main-area-link">
                     <img src="./img/2021網路花店新品＿有木盆器有肉植栽招貴人組合12-300x300.jpg" alt="">
                     <div class="main-area-img-text">
@@ -151,7 +160,7 @@
             <p>最新消息</p>
         </div>
         <section class="main-area2">
-            <div class="main-area2-content">
+            <div class="main-area2-content col-sm-4 col-xs-8 right">
                 <img src="./img/pexels-cottonbro-4507717.jpg" alt="">
                 <div class="main-area-img-text2">
                     <p>教你如何因應潮溼的天氣，如何保養你的盆栽!
@@ -160,7 +169,7 @@
                 </div>
 
             </div>
-            <div class="main-area2-content">
+            <div class="main-area2-content col-sm-4 col-xs-8">
                 <img src="./img/pexels-cottonbro-4503823.jpg" alt="">
                 <div class="main-area-img-text2">
                     <p>粉色系植栽登場!居家辦公室絕對不能缺少的可愛盆栽!
@@ -228,6 +237,7 @@
             dots: true,
             infinite: true,
             // speed: 500,
+            arrows: false,
             autoplay: true,
             autoplaySpeed: 2000,
             fade: true,
