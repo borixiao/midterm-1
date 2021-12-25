@@ -12,11 +12,16 @@
 $(document).ready(function () {
     // when a hanburger menu is clicked
     let $ul = $(".nav-m"),
-        $menu = $(".nav-menu");
+        $menu = $("#nav-icon1");
 
     $($menu).click(function () {
         // toggle menu-click Class
         $ul.slideToggle("menu-click");
         // $ul.toggleClass("menu-click");
     }); // end click event handler
+});
+$(document).ready(function () {
+    $('#nav-icon1').click(function () {
+        $(this).toggleClass('open');
+    });
 });
