@@ -1,14 +1,117 @@
-.block {
-  width: 300px;
+.page1{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/pexels-tharatip-sukee-866047.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:3rem;
+  color: white;
+}
+.page2{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(215, 202, 228);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.page3{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(35, 29, 41);
+  display: flex;
+}
+.page4{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(76, 76, 77);
+  display: flex;
+  justify-content: flex-end;
+}
+.whole-text-container{
+  width: 50%;
+}
+.text-container{
+
+}
+.text-container1{
+  width: 70%;
   height: 100px;
-  background-color: blue;
-  /* margin-left: 0px; */
-  margin: 0;
-  padding: 0;
+  background-color: rgb(215, 202, 228);
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.img_container2{
+  width: 50%;
+  height: 100vh;
+  background-image: url(../img/page2\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.trigger {
-  padding: 80vh 0;
+.text-container2{
+  width: 70%;
+  height: 500px;
+  background-color: rgb(215, 202, 228);
+  margin: 0 auto;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 50px;       
+  /* letter-spacing: 3px; */
 }
-
-  
+.text-container3-1{
+  width: 70%;
+  height: 100px;
+  background-color: rgb(215, 202, 228);
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.text-container3-2{
+  width: 70%;
+  height: 500px;
+  background-color: rgb(215, 202, 228);
+  margin: 0 auto;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 50px;       
+  /* letter-spacing: 3px; */
+}
+.img-container3{
+  width: 50%;
+  height: 100vh;
+  background-image: url(../img/page2\ \(2\).jpg);
+  background-size: cover;
+  background-position: center;
+}
+.text-container4-1{
+  width: 70%;
+  height: 100px;
+  background-color: rgb(215, 202, 228);
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.text-container4-2{
+  width: 70%;
+  height: 500px;
+  background-color: rgb(215, 202, 228);
+  margin: 0 auto;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 50px;       
+  /* letter-spacing: 3px; */
+}
+.img-container4{
+  width: 50%;
+  height: 100vh;
+  background-image: url(../img/page2\ \(2\).jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -80,7 +80,7 @@ body{
 .header-content{
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 20%;
     margin-left: 50px;
 }
 .header-content >a{
