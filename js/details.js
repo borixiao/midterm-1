@@ -29,6 +29,7 @@ new fullpage('#fullpage', {
 //         .to("#block", 1, { x: 0 })
 //     // 給0是兩個動畫一起播，沒有就是依序播
 // })
+
 // $(document).ready(function () {
 //     // Register GSAP ScrollTrigger Plugin
 //     gsap.registerPlugin(ScrollTrigger);

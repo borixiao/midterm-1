@@ -64,6 +64,16 @@ body {
   }
   .btn{
       font-size: 1.2rem;
+      font-weight: bold;
+      background-color: rgb(72, 189, 150);border:none
+  }
+  .btn-info:hover {
+    color: #fff;
+    background-color: rgb(56, 172, 135);
+  }
+  .indexbtn{
+    display: block;
+    width: 100%;
   }
   .login__signup {
     margin: 0;
@@ -90,7 +100,7 @@ body {
   
   .form-control {
     border: none;
-    border-bottom: 2px solid #0DB8DE;
+    border-bottom: 2px solid rgb(133, 197, 176);
     border-top: 0px;
     border-radius: 0px;
     font-weight: bold;
@@ -102,7 +112,7 @@ body {
   .form-control:focus {
     border-color: inherit;
     box-shadow: none;
-    border-bottom: 2px solid #0DB8DE;
+    border-bottom: 2px solid rgb(133, 197, 176);
   }
   
   .form-control-label {
@@ -119,7 +129,9 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  
+  .lottie{
+    width: 100%;
+  }
   .avatar-bg {
     display: block;
     background-color: lightgray;

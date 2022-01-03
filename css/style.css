@@ -103,8 +103,8 @@ body{
     background-color: rgb(133, 197, 176);
 }
 .footer-container{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex */
+    /* justify-content: space-around; */
     margin-top: 25px;
 }
 .footer-list{

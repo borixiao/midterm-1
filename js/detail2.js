@@ -34,11 +34,11 @@ $(document).ready(function () {
         $btnSignIn.html(`<span class="spinner-border spinner-border-sm"></span>`);
         auth.signInWithEmailAndPassword($email.val(), $password.val())
             .then(function (e) {
-                $btnSignIn.html(`Sign In`);
+                $btnSignIn.html(`登入`);
                 window.location.href = "./Profile.html";
             })
             .catch(function (e) {
-                $btnSignIn.html(`Sign In`);
+                $btnSignIn.html(`登入`);
                 console.log(e.message);
                 $signInfo.html(e.message);
             });
@@ -56,7 +56,7 @@ $(document).ready(function () {
                     photoURL: $('#photoURL').val()
                 })
                     .then(function () {
-                        $btnSignUp.html(`Sign Up`);
+                        $btnSignUp.html(`註冊`);
                         $email.val('');
                         $password.val('');
                         $('#userName').val('');

@@ -1,7 +1,7 @@
 .page1{
   width: 100%;
   height: 100vh;
-  background-image: url(../img/pexels-tharatip-sukee-866047.jpg);
+  background-image: url(../img/pexels-lisa-1314133\ \(1\).jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -12,26 +12,56 @@
 .page2{
   width: 100%;
   height: 100vh;
-  background-color: rgb(215, 202, 228);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
 }
 .page3{
   width: 100%;
   height: 100vh;
-  background-color: rgb(35, 29, 41);
+  background-color: rgb(255, 255, 255);
   display: flex;
 }
 .page4{
   width: 100%;
   height: 100vh;
-  background-color: rgb(76, 76, 77);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
 }
+.line{
+  width: 70%;
+  margin: 15px auto;
+  height: 5px;
+  background-color: rgb(32, 32, 32);
+
+}
+.btn-index{
+  /* width: 120px;
+  height: 50px;
+  background-color: rgb(29, 105, 98);
+  border-radius:10px ; */
+  text-align: center;
+  /* box-shadow: 5px 5px 5px ; */
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  transition: .5s ease all;
+}
+.btn-index:hover{
+  /* text-shadow: 0.2rem 0.2rem 0.2rem white; */
+  /* background-color: rgb(46, 185, 171); */
+}
 .whole-text-container{
   width: 50%;
+  /* border: black 10px solid; */
 }
 .text-container{
 
@@ -39,7 +69,7 @@
 .text-container1{
   width: 70%;
   height: 100px;
-  background-color: rgb(215, 202, 228);
+  /* background-color: rgb(215, 202, 228); */
   margin: 0 auto;
   font-size: 2rem;
   text-align: center;
@@ -47,7 +77,7 @@
 .img_container2{
   width: 50%;
   height: 100vh;
-  background-image: url(../img/page2\ \(1\).jpg);
+  background-image: url(../img/pexels-nadi-lindsay-2473721.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -55,7 +85,7 @@
 .text-container2{
   width: 70%;
   height: 500px;
-  background-color: rgb(215, 202, 228);
+  /* background-color: rgb(215, 202, 228); */
   margin: 0 auto;
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 1.4em;
@@ -63,10 +93,15 @@
   line-height: 50px;       
   /* letter-spacing: 3px; */
 }
+.text-container2 p{
+  display: block;
+  /* color: white; */
+  /* background-color: rgb(127, 159, 255); */
+}
 .text-container3-1{
   width: 70%;
   height: 100px;
-  background-color: rgb(215, 202, 228);
+  /* background-color: rgb(215, 202, 228); */
   margin: 0 auto;
   font-size: 2rem;
   text-align: center;
@@ -74,7 +109,7 @@
 .text-container3-2{
   width: 70%;
   height: 500px;
-  background-color: rgb(215, 202, 228);
+  /* background-color: rgb(215, 202, 228); */
   margin: 0 auto;
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 1.4em;
@@ -85,14 +120,14 @@
 .img-container3{
   width: 50%;
   height: 100vh;
-  background-image: url(../img/page2\ \(2\).jpg);
+  background-image: url(../img/pexels-cottonbro-4507708.jpg);
   background-size: cover;
   background-position: center;
 }
 .text-container4-1{
   width: 70%;
   height: 100px;
-  background-color: rgb(215, 202, 228);
+  /* background-color: rgb(215, 202, 228); */
   margin: 0 auto;
   font-size: 2rem;
   text-align: center;
@@ -100,7 +135,7 @@
 .text-container4-2{
   width: 70%;
   height: 500px;
-  background-color: rgb(215, 202, 228);
+  /* background-color: rgb(215, 202, 228); */
   margin: 0 auto;
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 1.4em;
@@ -111,7 +146,7 @@
 .img-container4{
   width: 50%;
   height: 100vh;
-  background-image: url(../img/page2\ \(2\).jpg);
+  background-image: url(../img/pexels-ron-lach-10339231.jpg);
   background-size: cover;
   background-position: center;
 }
