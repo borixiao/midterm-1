@@ -65,7 +65,7 @@ $(document).ready(function () {
                     });
             })
             .catch(function (e) {
-                $btnSignUp.html(`Sign Up`);
+                $btnSignUp.html(`註冊`);
                 $signInfo.html(e.message);
             });
     });

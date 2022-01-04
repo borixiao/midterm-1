@@ -5,7 +5,7 @@ html{
     background-attachment: fixed;   
 }
 .container{
-    max-width: 1200px;
+    width: 1200px;
     /* height: 1653px; */
     margin: 0 auto;
     background-image: url("https://i.pinimg.com/564x/8f/c9/25/8fc925150eae143e15c0f95c41c39cb4.jpg");
@@ -13,6 +13,7 @@ html{
     background-attachment: fixed;
     /* padding-top: 100px; */
 }
+
 .header{
     width: 1200px;
     font-size: 1.2rem;
@@ -25,6 +26,11 @@ html{
     z-index: 1000;
     transition: all .5s ease-out;
 }
+@media screen and(max-width:1200px) {
+    .header{
+       width: 1200px;
+    }
+}
 .flex-container{
     display: flex;
 }
@@ -35,6 +41,11 @@ html{
     padding: 30px 0px;
     margin-top: 90px;
     padding-left: 115px;
+}
+@media screen and (max-width: 1200px) {
+    .top-section{
+        margin-top: 72px;
+    }
 }
 @media screen and (max-width: 768px) {
     .top-section{
